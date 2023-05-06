@@ -32,6 +32,8 @@ public class RecursiveMethod {
 
         // Java'da Recursive Metotlar, bir metodun kendisini çağırma tekniğidir. Bu teknik karmaşık problemleri ,çözmesi daha kolay problemlere ayırmayı sağlar. İki sayıyı birbirine eklemek kolaydır, ancak bir dizi sayıyı birbirine eklemek daha karmaşıktır. Recursive metotlar sürekli kendilerini çağırdıkları için dikkat edilmesi gereken durum en son aşama için koşul koyulmasıdır .
 
-        // Döngünün devam etmesini engellemek icin if(n==1) { return 1;   } demeliyiz. yoksa döngünün bitmedigini görecegiz. 
+        // Döngünün devam etmesini engellemek icin if(n==1) { return 1;   } demeliyiz. yoksa döngünün bitmedigini görecegiz.
+
+        //bir metodun kendisini cagirmasina recursive ozyineli denmektedir.
     }
 }
