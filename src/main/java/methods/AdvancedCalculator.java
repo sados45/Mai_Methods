@@ -27,7 +27,7 @@ public class AdvancedCalculator {
     public  static int cikarma(int a, int b){
         return a-b;
     }
-    public static int bolme(int a, int b){
+    public static double bolme(int a, int b){
         return a/b;
     }
     public static int carpma(int a, int b){
