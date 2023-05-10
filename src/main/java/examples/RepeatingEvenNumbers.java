@@ -1,5 +1,6 @@
 package examples;
 import java.util.Arrays;
+
 public class RepeatingEvenNumbers {
 
 
