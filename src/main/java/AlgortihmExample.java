@@ -20,7 +20,7 @@ public class AlgortihmExample {
 
 [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 
-        ChatGPT
+     
                 [22, 27, 16, 2, 18, 6] dizisinin Insertion Sort'a göre aşamaları:
 
         Adım: [22, 27, 16, 2, 18, 6]
@@ -45,7 +45,7 @@ public class AlgortihmExample {
 
         Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
                 Big-O gösterimini yazınız.
-        ChatGPT
+
                 [16, 21, 11, 8, 12, 22] dizisinin Merge Sort'a göre aşamaları:
 
         Adım: [16, 21, 11] [8, 12, 22]
@@ -55,6 +55,25 @@ public class AlgortihmExample {
         Adım: [8, 11, 16, 21] [12, 22]
         Adım: [8, 11, 12, 16, 21, 22]
         Big-O gösterimi: O(n log n)
+
+
+                [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+        Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+                [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree (BST) aşamaları:
+
+        Adım: 7(root)
+                Adım: 7(root) - 5(sol), 8(sag)
+                Adım: 7(root) - 5(sol) - 1(sol), 8(sag)
+                Adım: 7(root) - 5(sol) - 1(sol) - 0(sol), 8(sag)
+                Adım: 7(root) - 5(sol) - 1(sol) - 0(sol), 8(sag) - 3(sol)
+                Adım: 7(root) - 5(sol) - 1(sol) - 0(sol), 8(sag) - 3(sol) - 6(sag)
+                Adım: 7(root) - 5(sol) - 1(sol) - 0(sol), 8(sag) - 3(sol) - 6(sag) - 4(sol)
+                Adım: 7(root) - 5(sol) - 1(sol) - 0(sol), 8(sag) - 3(sol) - 6(sag) - 4(sol) - 2(sol)
+                Adım: 7(root) - 5(sol) - 1(sol) - 0(sol), 8(sag) - 3(sol) - 6(sag) - 4(sol) - 2(sol) - 9(sag)
+                Adım: 7(root) - 5(sol) - 1(sol) - 0(sol), 8(sag) - 3(sol) - 6(sag) - 4(sol) - 2(sol) - 9(sag)
+                BST'de her düğüm, solunda kendisinden daha küçük değerlere ve sağından kendisinden daha büyük değerlere sahip olmalıdır. Yukarıdaki aşamalarda verilen dizinin elemanları bu kurala uygun bir şekilde BST'ye yerleştirildi.
 
     }
 }
